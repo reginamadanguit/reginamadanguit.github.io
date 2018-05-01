@@ -1,0 +1,159 @@
+body {
+	background: #13161c;
+	cursor: cell;
+
+}
+
+a:link {
+    color: #fff;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+	color: #fff;
+    background-color: transparent;
+    text-decoration: green wavy overline;
+}
+
+a:active {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.grid {
+
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-areas: 
+	"section content";
+
+}
+
+.section{
+	padding-top: 160px;
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Crimson Text', serif;
+	padding-left: 250px;
+	grid-area: section;
+	display: grid;
+	grid-template-rows: 3% 11% 35% 30%; 
+	grid-row-gap: 150px;
+}
+
+.content {
+	padding-top: 180px;
+	font-family: 'Arimo', sans-serif;
+	color: #fff;
+	font-size: 50px;
+	grid-area: content;
+	display: grid;
+	grid-template-rows: 5% 13% 75% 10%; 
+	grid-row-gap: 150px;
+	padding-right: 40px;
+}
+
+.name:hover {
+cursor: pointer;
+text-decoration: green wavy overline;
+}
+
+.nick {
+	display: none;
+}
+
+#clip1 {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-20%, -20%);
+	display: none;
+}
+
+#clip2 {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-20%, -20%);
+	display: none;
+}
+
+#clip3 {
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-10%, -10%);
+	display: none;
+}
+
+#clip4 {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-20%, -20%);
+	display: none;
+}
+
+#clip5 {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-20%, -20%);
+	display: none;
+}
+
+.video-item {
+	padding-bottom: 20px;
+}
+
+.video-item:hover {
+	cursor: pointer;
+	text-decoration: green wavy overline;
+}
+
+.info {
+	padding-bottom: 20px;
+}
+
+.info:hover {
+	cursor: pointer;
+	text-decoration: green wavy overline;
+}
+
+
+
+
+
+
+
+
+
+
+
