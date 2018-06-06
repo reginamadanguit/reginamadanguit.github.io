@@ -39,7 +39,7 @@ a:active {
 	padding-left: 250px;
 	grid-area: section;
 	display: grid;
-	grid-template-rows: 3% 11% 35% 30%; 
+	grid-template-rows: 3% 10% 33% 33%; 
 	grid-row-gap: 150px;
 }
 
@@ -50,7 +50,7 @@ a:active {
 	font-size: 50px;
 	grid-area: content;
 	display: grid;
-	grid-template-rows: 5% 13% 75% 10%; 
+	grid-template-rows: 5% 15% 72% 8%; 
 	grid-row-gap: 150px;
 	padding-right: 40px;
 }
